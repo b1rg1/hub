@@ -14,3 +14,7 @@ def TENSORFLOW_MODEL(*args, **kwargs):
                                               weights='imagenet')
 
     return model
+
+def MY_MODEL(*args, **kwargs):
+    
+    return None
