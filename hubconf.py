@@ -9,7 +9,7 @@ def PYTORCH_MODEL(*args, **kwargs):
 def TENSORFLOW_MODEL(*args, **kwargs):
     import tensorflow as tf
 
-    model = tf.keras.applications.MobileNetV2(input_shape=(100,100,3),
+    model = tf.keras.applications.MobileNetV2(input_shape=(224,224,3),
                                               include_top=False,
                                               weights='imagenet')
 
